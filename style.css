@@ -58,12 +58,14 @@ p {
 
 main {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    height: 95%;
+    min-height: 95%;
 }
 
 footer {
+    padding-top: 1rem;
     text-align: center;
 }
 
